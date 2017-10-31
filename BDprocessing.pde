@@ -19,7 +19,6 @@ void setup()
   in = minim.getLineIn(Minim.STEREO,1024); 
 
   fft = new FFT(in.bufferSize(),in.sampleRate());
-  //fft.linAverages(60);
   fft.logAverages(30,5);
 
   stroke(255); 
