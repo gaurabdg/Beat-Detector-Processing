@@ -14,6 +14,7 @@ void setup() {
 
 
 void loop() {
+  //Scan serial to obtain RGB values from processing.
 if(Serial.available()){
     int incomingValue = Serial.read();
     
