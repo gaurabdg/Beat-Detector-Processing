@@ -56,7 +56,7 @@ void draw()
   print(mid + " ");
   println(treble);  
   
-  //Dump to serial
+  //Dump to serial.
   byte out[] = new byte[3];
   out[0] = byte(bassF);
   out[1] = byte(midF);
