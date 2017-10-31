@@ -11,7 +11,7 @@ PImage fade;
 
 void setup() 
 {
-  
+  //Change COM port accordingly
   myPort = new Serial(this, "/dev/ttyUSB0", 115200);
   size(640,480); 
   minim = new Minim(this);
